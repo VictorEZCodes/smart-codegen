@@ -21,9 +21,9 @@
 ## 🚀 Installation
 
 ```bash
-npm install -g smart-codegen
+npm install -g smart-codegen-cli
 # or
-yarn global add smart-codegen
+yarn global add smart-codegen-cli
 ```
 ## Usage
 
