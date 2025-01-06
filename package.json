@@ -1,11 +1,11 @@
 {
-  "name": "smart-codegen",
-  "version": "1.0.20",
+  "name": "smart-codegen-cli",
+  "version": "1.0.0",
   "description": "AI-powered code generation CLI tool for React applications",
   "main": "src/index.js",
   "type": "module",
   "bin": {
-    "codegen": "./src/index.js"
+    "codegen": "src/index.js"
   },
   "scripts": {
     "link": "npm link",
@@ -27,7 +27,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/VictorEZCodes/smart-codegen"
+    "url": "git+https://github.com/VictorEZCodes/smart-codegen.git"
   },
   "dependencies": {
     "chalk": "^5.4.1",
