@@ -1,0 +1,47 @@
+{
+  "name": "smart-codegen",
+  "version": "1.0.20",
+  "description": "AI-powered code generation CLI tool for React applications",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "codegen": "./src/index.js"
+  },
+  "scripts": {
+    "link": "npm link",
+    "test": "jest",
+    "start": "node src/index.js",
+    "format": "prettier --write src/**/*.js"
+  },
+  "keywords": [
+    "react",
+    "code-generator",
+    "cli",
+    "ai",
+    "components",
+    "hooks",
+    "crud",
+    "openai"
+  ],
+  "author": "VictorEZCodes",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VictorEZCodes/smart-codegen"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.0.0",
+    "dotenv": "^16.4.7",
+    "inquirer": "^12.3.0",
+    "openai": "^4.77.0",
+    "ora": "^8.1.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "prettier": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

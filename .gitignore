@@ -1,0 +1,6 @@
+tests/
+.env
+.env.*
+node_modules/
+.prettierrc
+*.log
