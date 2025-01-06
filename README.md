@@ -72,7 +72,6 @@ yarn global add smart-codegen
 Add a  `.env`  file in your project root:
 ```bash
 OPENAI_API_KEY=your_api_key_here
-GITHUB_USER=your_github_username
 ```
 
 🛠️ Commands Reference
